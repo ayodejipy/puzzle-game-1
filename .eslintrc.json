@@ -1,0 +1,4 @@
+{
+    "plugins": ["eslint-plugin-nuxt"],
+    "extends": ["@nuxt/eslint-config", "plugin:prettier/recommended", "prettier"]
+}
