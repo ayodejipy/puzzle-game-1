@@ -46,7 +46,7 @@ function moveTile(index: number) {
 		swapTiles(index, emptyTileIndex);
 
 		if (isGameSolved()) {
-			store.value = { user: "sonny", time: new Date(), isSolved: true };
+			store.value = { user: "sonny"	, time: new Date(), isSolved: true };
 			isSolved.value = true;
 		}
 	}
